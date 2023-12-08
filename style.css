@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #E5F6FF;
+}
+
+footer{
+    background-color: white;
+    position:fixed;
+    bottom: -0;
+    width: 100%;
+    height: 5vh;
+    
+}
+
+.sidebar{
+    position: fixed;
+    height: 100%;
+    width: 260px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    display: none;
+    
+}
+
+.sidebar a {
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+.sidebar a:hover {
+    padding: 3px;
+    
+    border-radius: 10px;
+    
+    
+}
+
+
+.sidecontent{
+    position: relative;
+    list-style: none;
+    font-size: 30px;
+    margin: 20px, ;
+    padding: 15px, ;
+    
+   
+}
+
+.topbar{
+    background-color: white;
+    height: 50px;
+    
+}
+
+.openbtn{
+    padding-left: 15px;
+    font-size: 35px;
+    background-color: white;
+    border-style: none;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item1{
+    padding: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+ .item1:hover .subitem1{ display: block;}
+
+.subitem1{
+    display: none;
+    background: #FFFFFF;
+    margin-left: 80px;
+    
+    
+    
+}
+
+
+
+.item2{
+    padding: 30px;
+}
+
+.item2:hover .subitem2{ display: block;}
+
+.subitem2{
+    display: none;
+    background: #FFFFFF;
+    margin-left: 80px;
+    
+    
+}
+
+.item3{
+    padding: 30px;
+}
+
+.item3:hover .subitem3{ display: block;}
+
+.subitem3{
+    display: none;
+    background: #FFFFFF;
+    
+    margin-left: 80px;
+    
+    
+}
+
+
+
+
+
+
+
