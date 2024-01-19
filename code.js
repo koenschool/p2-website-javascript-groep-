@@ -24,3 +24,16 @@ function laatzienpro() {
 function laatziencon() {
     document.getElementById("display").innerHTML = "<h1>Contact</h1><br><p>Email:9023005@student.zadkine.nl</p><p>Telefoonnummer:063432652</p>";
   }
+
+  function showF(){
+    document.getElementById("display").innerHTML = "<h1>mijn foto.</h1><img src = img/stijnfot.jpg width = 10% height=10%>";
+  }
+  function showop() {
+    document.getElementById("display").innerHTML = "<h1>Opleidingen</h1><br><p>de opleiding die ik nu doe = software devloper op het Techniek college Rotterdam Janlichthardstraat 250.</p>";
+  }
+  function showpro() {
+    document.getElementById("display").innerHTML = "<h1>Programmeer talen</h1><br><p>talen waar ik goed in ben : PHP,HTML,CSS. en talen die ik nog lastig vind: javascript en SQL</p>";
+  }
+  function showcon() {
+    document.getElementById("display").innerHTML = "<h1>Contact</h1><br><p>Email:9022729@student.zadkine.nl</p><p></p>";
+  }
