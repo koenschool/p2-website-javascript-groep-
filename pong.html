@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="pong.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav  class="topbar">
+      <button  class="openbtn" onclick="openNav()"> ☰</button>
+</nav>
+  
+<nav id="mysidebar" class="sidebar">
+<div class="sidecontent">
+<li class="item1">
+    <a href="index.html">Homepage</a>
+</li>
+
+
+<li class="item2">
+    <a href="doriangoeddoel.html">Goede doel </a>
+</li>
+
+
+</div>
+</nav>
+
+<div id="canvas-btn">
+  <canvas id="canvas"></canvas>
+   
+    <br>
+<button id="gamebtn" onclick="startbtn()">start game</button>
+     <div class="speler1uit">speler1 gebruikt W om omhoog te gaan<br>  en S om naar beneden te gaan
+    </div>
+    <div class="speler2uit">speler2 gebruik de pijltjestoetsen<br> om omhoog  en naar beneden te gaan
+    </div>
+ </div>
+    <script src="code.js"></script>
+    <script src="pong.js" ></script>
+  </body>
+</html>

@@ -37,6 +37,14 @@ body{
     margin-bottom:-2.5%;
 }
 
+.hartimg{
+    position: absolute;
+    padding: 30;
+
+    right: 0;
+}
+
+
 footer{
     font-family:Arial;
     background-color: white;
